@@ -10,3 +10,4 @@ d[, rando := rnorm(.N)]
 write_sheet(d, file_id, params$sheet_name)
 
 write_sheet(data.table(last_updated_utc = Sys.time()), file_id, 'status')
+range_autofit(file_id, 'status')
