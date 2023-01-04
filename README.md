@@ -50,3 +50,9 @@
 
 - Modify the code and params as desired, just make sure the .github/workflows/ci.yaml file runs the appropriate R script (currently code/update_sheet.R).
 - To change the R package dependencies, change the "Imports:" section of the DESCRIPTION file.
+
+## External documentation
+
+- https://github.com/r-lib/actions
+- https://gargle.r-lib.org/articles/non-interactive-auth.html
+- https://googlesheets4.tidyverse.org
